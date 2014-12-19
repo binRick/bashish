@@ -343,11 +343,11 @@ function themecap_xterm-old
 }
 
 ### INCORRECT INDENDING STOPS HERE ###
-	eval themecap_$(${BASHISHDIR}/lib/_bashish_termdetect)
-	for UNSET in vt52 vt100 ansi linux xterm_dtterm xterm-generic xterm-rxvt-nofont xterm-old gnometerminal 
-		do
-		unset -f themecap_$UNSET
-	done
+#	eval themecap_$(${BASHISHDIR}/lib/_bashish_termdetect)
+#	for UNSET in vt52 vt100 ansi linux xterm_dtterm xterm-generic xterm-rxvt-nofont xterm-old gnometerminal 
+#		do
+#		unset -f themecap_$UNSET
+#	done
 #fi
 
 ## load all modules specified in $THEMECAP
